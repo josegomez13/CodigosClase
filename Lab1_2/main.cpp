@@ -10,7 +10,7 @@ int main()
     cout << "Ingrese un numero N" << endl;
     cin >> N;
 
-   // N=div(N,2)
+   // Se Usa el operador modulo para indicar si el numero es par o impar; si el residuo es 0 el numero es par
     if (N % 2==0)
     {
 
