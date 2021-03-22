@@ -9,6 +9,6 @@ int main()
     cin >> NumA;
     cout << "Digite numero B:" << endl;
     cin >> NumB;
-    cout << "La division es: " << NumA/NumB << endl;
+    cout << "El residuo es: " << NumA%NumB << endl;
     return 0;
 }
